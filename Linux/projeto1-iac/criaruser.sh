@@ -2,7 +2,7 @@
 echo "Criando usuários do sistema...."
 echo "Explicando comandos"
 echo "useradd -> cria um novo usuario"
-echo "useradd -c ->  cria um novo usuario com comentaario"
+echo "useradd -c ->  cria um novo usuario com comentario"
 echo "useradd -s ->  cria um novo usuario especificando o shell"
 echo "useradd -p ->  cria um novo usuario especificando a senha, porem a senha fica criptografa e é preciso usar $(openssl passwd -crypt Senha123)  para passar a senha descriptgrafada"
 
